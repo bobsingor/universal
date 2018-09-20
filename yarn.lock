@@ -9,13 +9,22 @@
     "@angular-devkit/core" "0.6.8"
     rxjs "^6.0.0"
 
-"@angular-devkit/core@0.6.8", "@angular-devkit/core@~0.6.8":
+"@angular-devkit/core@0.6.8":
   version "0.6.8"
   resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-0.6.8.tgz#3b09d97bd2588f0091df11921f7ed772431806aa"
   dependencies:
     ajv "~6.4.0"
     chokidar "^2.0.3"
     rxjs "^6.0.0"
+    source-map "^0.5.6"
+
+"@angular-devkit/core@~0.8.3":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-0.8.3.tgz#a7158195dc90997de62ec0b12af3325870182c3b"
+  dependencies:
+    ajv "~6.4.0"
+    chokidar "^2.0.3"
+    rxjs "~6.2.0"
     source-map "^0.5.6"
 
 "@angular-devkit/schematics@0.6.8", "@angular-devkit/schematics@~0.6.8":
@@ -63,6 +72,11 @@
 "@angular/compiler-cli@~6.0.9":
   version "6.0.9"
   resolved "https://registry.yarnpkg.com/@angular/compiler-cli/-/compiler-cli-6.0.9.tgz#a4b48b37d8b3dd8d702e034d4f062596d048a8a2"
+  dependencies:
+    chokidar "^1.4.2"
+    minimist "^1.2.0"
+    reflect-metadata "^0.1.2"
+    tsickle "^0.29.0"
 
 "@angular/compiler@~6.0.9":
   version "6.0.9"
@@ -8643,7 +8657,7 @@ rxjs@^6.0.0:
   dependencies:
     tslib "^1.9.0"
 
-rxjs@~6.2.2:
+rxjs@~6.2.0, rxjs@~6.2.2:
   version "6.2.2"
   resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.2.2.tgz#eb75fa3c186ff5289907d06483a77884586e1cf9"
   dependencies:
@@ -10268,6 +10282,8 @@ url-join@^4.0.0:
 url-parse-lax@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/url-parse-lax/-/url-parse-lax-1.0.0.tgz#7af8f303645e9bd79a272e7a14ac68bc0609da73"
+  dependencies:
+    prepend-http "^1.0.1"
 
 url@^0.11.0:
   version "0.11.0"
